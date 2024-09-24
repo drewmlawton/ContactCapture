@@ -1,5 +1,5 @@
 # ContactCapture
-Automated contact extraction from webpages with HubSpot integration
+Tired of copying and pasting contact info? Look for an automated solution with HubSpot integration? ContactCapture pulls emails from any site and automatically matches them to their corresponding names! Check out the demo below.
 
 
 
