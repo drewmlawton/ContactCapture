@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ContactCapture</title>
+    <style>
+        
+      h1 {
+        font-family: Tahoma, sans-serif;
+      }
+
+      #divOptions {
+        text-align: center;
+      }
+
+      .option {
+        display: inline;
+        background: none;
+        border: none;
+      }
+
+      .option:hover {
+        cursor: pointer;
+      }
+
+      .option img{
+        max-width: 25px;
+      }
+
+      #statusMessage {
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ContactCapture</h1>
+    <div id="divOptions">
+        <button id="extractHubSpot" class="option"><img src="HubSpotLogo.svg"/></button>
+        <button id="extractCSV" class="option"><img src="ExcelLogo.svg"/></button>
+    </div>
+    <p id="statusMessage"></p>
+    <script src="popup.js"></script>
+  </body>
+</html>
